@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>Document</title>
+    <style>
+        .winner{
+            color: green;
+        }
+        .loser{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="card">
+                    <header class="card-header">
+                      <p class="card-header-title">
+                        Karaoke System
+                      </p>
+                      <button class="card-header-icon" aria-label="more options">
+                        <span class="icon">
+                          <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                      </button>
+                    </header>
+                    <div class="card-content">
+                      <div class="content">
+                        <!-- <h1 class="title is-size-1"><span id="p1Display">0</span> to <span id="p2Display">0</span></h1> -->
+                        <img src="http://1.bp.blogspot.com/_OzwQyPSpHGs/TUCXNFnpE1I/AAAAAAAAAKk/ALSRqYZXDGQ/s1600/karaoke_1.jpg" alt="">
+                        <p class="subtitle">Please choose any song you'd like to sing</p>
+                        <div class="columns">
+                            <div class="column is-half">
+                                <label for="playto" class="label is-large is-inline">Artist</label>
+                                <div class="select is-rounded">
+                                    <select name="" id="playto">
+                                        <option value="Taylor Swift">Select</option>
+                                        <option value="Taylor Swift">Taylor Swift</option>
+                                        <option value="Katy Perry">Katy Perry</option>
+                                        <option value="Bruno Mars">Bruno Mars</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="column is-half">
+                                <label for="playto" class="label is-large is-inline">Song</label>
+                                <div class="select is-rounded">
+                                    <select name="" id="playto">
+                                        <option value="Taylor Swift">Select</option>
+                                        <option value="Katy Perry">22</option>
+                                        <option value="Bruno Mars">Gorgeous</option>
+                                        <option value="Bruno Mars">Wildest Dream</option>
+                                        <option value="Bruno Mars">Blank Space</option>
+                                        <option value="Taylor Swift">Lover</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <footer class="card-footer">
+                        <button id="p1Button" class="is-primary button card-footer-item">Play</button>
+                        <button id="p2Button" class="is-info button card-footer-item">Pause</button>
+                        <button id="reset" class="is-danger button card-footer-item">Restart</button>
+                    </footer>
+            </div>
+        </div>
+    </div>
+      </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
